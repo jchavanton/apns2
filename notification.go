@@ -100,6 +100,7 @@ type Notification struct {
 	// If you don't set this, a new UUID is created by APNs and returned in the
 	// response.
 	ApnsID string
+	ApnsUniqueID string
 
 	// A string which allows multiple notifications with the same collapse
 	// identifier to be displayed to the user as a single notification. The

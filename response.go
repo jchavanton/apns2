@@ -128,6 +128,7 @@ type Response struct {
 	// The APNs ApnsID value from the Notification. If you didn't set an ApnsID on the
 	// Notification, this will be a new unique UUID which has been created by APNs.
 	ApnsID string
+	ApnsUniqueID string
 
 	// If the value of StatusCode is 410, this is the last time at which APNs
 	// confirmed that the device token was no longer valid for the topic.
